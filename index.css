@@ -22,6 +22,8 @@ header{
 	margin: 50px;
 	justify-content: center;
 	justify-content: space-around;
+	background: rgba(0,0,0,0.4);
+	border-radius:40px;
 
 
 
