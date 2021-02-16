@@ -1,8 +1,8 @@
 body{
-	background-image: url(image2.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background:rgba(155,41,28,0.8);
+	/*background-size: cover;*/
+	/*background-position: center;*/
+	/*background-repeat: no-repeat;*/
 	margin: 0px;
 }
 
@@ -10,10 +10,10 @@ header{
 	text-align: center;
 	font-weight: 100%;
 	font-size: 35px;
-	font-family: fantasy;
-	background: rgba(0,233,233,0.8);
+	font-family: 'Roboto', sans-serif;
+	background: rgba(24,86,123,0.8);
 	margin: none;
-	color:#333;
+	color:#fff;
 
 }
 .container{
@@ -41,18 +41,20 @@ header{
 }
 #first{
 	border-radius: 30px;
-	background:rgba(0,0,233,0.9);
+	background:rgba(55,67,129,0.5);
+	opacity: transparent;
 	font-size:25px;
-	font-family: New Times Roman , Roman ,Roboto ,fantasy ;
+	font-family: 'Long Cang', cursive;
 	margin: 30px;
 	/*box-shadow:  4px 3px #000;*/
-	transition: all 1s;
+	transition: all 1s;border-radius: 66px;
+	
 
 }
 
 #first:hover{
 	color:white;
-	background: rgba(233,0,233,0.7);
+	background: rgba(45,19, 93,0.9);
 	box-shadow:inset 4px 4px 4px 4px #000;
 
 }
